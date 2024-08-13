@@ -5,3 +5,39 @@
     background-color: black;
 
 }
+
+
+.teams {
+ 
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    overflow: hidden;
+    
+    
+ }
+ 
+div {
+
+   display: flex;
+   gap: 3px;
+   overflow: scroll;
+   scrollbar-color: yellow;
+   overflow-y: hidden;
+   scroll-snap-type: x proximity;
+   
+
+}
+
+
+
+
+div img {
+ 
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    scroll-snap-align: center;
+ 
+ }
