@@ -4,11 +4,11 @@ function DarkMode(){
     body1.classList.toggle('darkMode')
 
     var btn = document.getElementById('sarah');
-    if(btn.innerText=="Darkmode"){
-       btn.innerText="light-mode";
+    if(btn.innerText=="Kevin"){
+       btn.innerText="Malomba";
       }
     else{
-      btn.innerText="Darkmode";
+      btn.innerText="Kevin";
       }
 
 }
