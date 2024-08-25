@@ -4,7 +4,7 @@ function DarkMode(){
     body1.classList.toggle('darkMode')
 
     var btn = document.getElementById('sarah');
-    if(btn.innerText=="Kevin"){
+    if(btn.innerText==""){
        btn.innerText="Malomba";
       }
     else{

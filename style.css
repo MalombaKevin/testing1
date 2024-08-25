@@ -41,3 +41,12 @@ div img {
     scroll-snap-align: center;
  
  }
+
+ .malombadiv img {
+ 
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    scroll-snap-align: center;
+ 
+ }
